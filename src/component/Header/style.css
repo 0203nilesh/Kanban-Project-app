@@ -1,0 +1,67 @@
+.headerContainer{
+    background-color: white;
+    /* margin: 5px; */
+    padding: 10px;
+    padding-left: 100px;
+    position: relative;
+}
+.headerBtn{
+    padding: 4px;
+    background-color: white;
+    border-color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: none;
+    gap: 5px;
+    box-shadow: 1px 1px 4px gray;
+    border-radius: 5px;
+}
+.headerBtn:hover{
+    background-color: aliceblue;
+}
+.Icon{
+    width: 16px;
+    height: 16px;
+}
+.headerBtnText{
+    font-size: 15px;
+}
+
+.inputBox{
+    /* border: 2px solid black; */
+    box-shadow: 1px 1px 4px gray;
+    border-radius: 10px;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    right: 10;
+    gap: 10px;
+    padding: 8px 20px;
+}
+.inputBox>p{
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.inputBox>p> span{
+    font-size: 15px;
+    font-weight: 500;
+    color: gray;
+}
+.inputBox> p>  select{
+    padding: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.inputBox> p> select>option{
+    font-size: 14px;
+    border-radius: 0px;
+    margin: 2px 0 !important;
+}

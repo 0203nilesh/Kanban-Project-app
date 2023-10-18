@@ -1,0 +1,50 @@
+
+.columnContainer{
+    /* border: 2px solid white;  */
+    /* height: 350px; */
+    width: 280px;
+    display: block;
+    /* width: 360px; */
+    /* background-color: white; */
+}
+.firstBox{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+}
+
+.leftBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.userIcon{
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    color: white;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 2px; */
+    font-size: 12px;
+}
+.columnTitle{
+    text-transform: capitalize;
+}
+.rightBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.secondBox{
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+    margin-top: 5px;
+    gap: 20px;
+}
